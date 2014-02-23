@@ -1,15 +1,11 @@
 Code written while learning Marionette.js from this super awesome series http://www.backbonerails.com/series/engineering_single_page_apps
 
-<pre>
-  bundle install
-  rake db:migrate
-  rvmsudo thin start -D -p 80
-</pre>
+  $ bundle install
+  $ rake db:migrate
+  $ rvmsudo thin start -D -p 80
 
 In another tab do the following for the log
 
-<pre>
   $ tail -f log/development.log
-</pre>
 
-visit `http://localhost`
+Go to http://localhost
